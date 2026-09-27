@@ -1,0 +1,35 @@
+PÁGINA DE PROMESA - ARCHIVOS SEPARADOS 💍
+
+ARCHIVOS:
+- index.html
+- styles.css
+- script.js
+
+COMPORTAMIENTO:
+La página principal termina en “¿Quieres ser mi novia?”.
+Cuando ella pulsa cualquiera de los botones de “Sí”, NO aparece una ventana.
+En su lugar se revela una segunda parte larga de la misma página y el navegador baja automáticamente a ella.
+
+ESA SEGUNDA PARTE INCLUYE:
+- “Ya somos novios”
+- El primer día de la relación
+- Nuevas promesas
+- Un segundo significado del anillo
+- Camino futuro juntos
+- Carta final
+- Cierre romántico
+
+MÚSICA:
+Coloca un archivo llamado musica.mp3 en esta misma carpeta.
+
+FOTOS:
+Las fotos actuales son de demostración y usan enlaces externos.
+Puedes reemplazar cada src="https://..." por algo como:
+src="fotos/foto1.jpg"
+
+FECHA:
+La fecha visible actual es 26 · 09 · 2026.
+Puedes cambiarla directamente dentro de index.html.
+
+PUBLICAR:
+Puedes subir la carpeta completa a Netlify, Vercel o GitHub Pages.
