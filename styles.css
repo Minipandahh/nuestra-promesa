@@ -25,7 +25,32 @@ body{
   overflow-x:hidden;
 }
 
-body.locked{overflow:hidden}
+html,
+body{
+  margin:0;
+  width:100%;
+}
+
+body.locked{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  overscroll-behavior:none;
+  touch-action:none;
+}
+
+.intro{
+  position:fixed;
+  inset:0;
+  width:100%;
+  height:100dvh;
+  overflow:hidden;
+  overscroll-behavior:none;
+  touch-action:none;
+}
 
 img{
   width:100%;
