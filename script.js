@@ -15,8 +15,22 @@ let accepted = false;
 // ABRIR LA PÁGINA
 // ===============================
 openBtn.addEventListener("click", async () => {
+
+  // Siempre comienza la historia desde arriba
+  window.scrollTo(0, 0);
+
   intro.classList.add("hide");
-  document.body.classList.remove("locked");
+
+  setTimeout(() => {
+    document.body.classList.remove("locked");
+
+    // Asegura que iPhone Safari quede arriba
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant"
+    });
+  }, 300);
 
   try {
     await song.play();
